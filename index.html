@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a155253d3e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="hero-section" id = "home">
+        <div class="navbar">
+            <div class="image">
+                <img class = "main-logo" src="images/port_prev_ui.png" alt="logo">
+            </div>
+            <div class="home">
+                <ul>
+                    <li style="float:right;"><a href="#"><i class="fa-sharp fa-solid fa-bars fa-2x" style="color: #ccf395;"></i></a>
+                        <ul class = "dropdown">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#skill">Skills</a></li>
+                            <li><a href="#form">Connect</a></li>
+                            <li><a href="#footer">Contact</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+        <div class="info">
+            <p class = "Intro">Hello, My name is Anshu.</p>
+            <p class = "desp">I am a full stack Developer.</p>
+                
+                <div class="log">
+                    <div class = "face-logo"></div>
+                    <!-- <img src="images/image-modified.png" class = "face" alt=""> -->
+                    </div>
+                </div>
+                
+            
+            
+            <!-- <img src="images/hero-devices.jpg" class = "device-image" alt="devices"> -->
+        </div>
+    </div>
+
+    <!-- Middle section -->
+    <div class="mid-section">
+        <p class = "greet">Nice to meet you.</p>
+        <p class = "about">I am a passionate and dedicated beginner web developer, fueled by my love for creating dynamic and interactive websites. Despite starting with no prior experience, I am committed to constantly learning and mastering new technologies, languages, and frameworks. With each challenge I face, I see an opportunity for personal and professional growth. I am excited to embark on this journey and translate my enthusiasm into well-designed, user-friendly web experiences.</p>
+    </div>
+    <br id = "skill">
+    <!-- Skills -->
+    <div class="skills reveal">
+        <div class="skillset reveal">
+            <i class="fa-solid fa-code fa-4x" style="color: #ccf395;"></i>
+            <p class = "skill-head">Java</p>
+            <p class = "desc">With a good foundation in Java programming, I possess a moderate level of knowledge that empowers me to tackle diverse coding challenges. Eager to expand my skill set, I am constantly honing my abilities and exploring new possibilities within the world of Java.</p>
+        </div>
+        <div class="skillset reveal">
+            <i class="fa-solid fa-laptop-code fa-4x" style="color: #ccf395;"></i>
+            <p class = "skill-head">DSA</p>
+            <p class = "desc">I am adept at solving complex problems and optimizing code efficiency. Through continuous learning and practice, I am determined to enhance my DSA skills and unravel the power of efficient algorithms.</p>
+        </div>
+        <div class="skillset reveal">
+            <i class="fa-sharp fa-regular fa-file-code fa-4x" style="color: #ccf395;"></i>
+            <p class = "skill-head">Web Dev</p>
+            <p class = "desc">I possess the skills to create captivating and functional websites. From HTML and CSS to JavaScript and frameworks like React, I am proficient in the essential tools and technologies of the trade. Continuously expanding my knowledge.</p>
+        </div>
+    </div>
+    <!-- Form Section -->
+    
+    <div class="form-section reveal" id = "form">
+        <p class = "connect">Let's Connect</p>
+        <form>
+           <div class="row">
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="number" required>
+                <label for="number"><i class="fa-solid fa-phone"></i> Phone no.</label>
+            </div>
+           </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email"><i class="fa-solid fa-envelope"></i> Your Email</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message"><i class="fa-solid fa-message"></i> Your Message</label>
+            </div>
+            <button type="submit">Submit <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="footer" id = "footer">
+        <div class="icon">
+            <i class="fa-sharp fa-solid fa-face-smile fa-4x" style="color: #fff;" id = "hover"></i>            
+        </div>
+        <div class = "quote">
+            <p class = "quotes">The only way to do great work is to love what you do.</p>
+        </div>
+        <div class="social">
+            <div class="insta">
+                <a href="https://www.instagram.com/"><i class=" link fa-brands fa-instagram fa-3x"></i></a>
+            </div>
+            <div class="insta linkedin">
+                <a href="https://www.linkedin.com/in/pathakanshu/"><i class=" link fa-brands fa-linkedin-in fa-3x"></i></a>
+            </div>
+            <div class=" insta github">
+                <a href="https://github.com/anshU-p-aThAk"><i class="link fa-brands fa-github fa-3x"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class = "right">© Anshu Pathak 2023</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+   <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
